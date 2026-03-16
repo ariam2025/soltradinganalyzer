@@ -23,7 +23,7 @@ A Python-based TradingView-style analysis tool for **SOL/USDT Binance Futures** 
 
 ```
 sol-trading-analyzer/
-├── main.py                 # CLI entry point
+├── main.py                 # CLI entry point___Point
 ├── requirements.txt        # Python dependencies
 ├── .gitignore
 ├── src/
