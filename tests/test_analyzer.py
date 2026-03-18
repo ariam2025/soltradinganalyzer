@@ -39,7 +39,7 @@ def make_dummy_df(n: int = 250, base_price: float = 88.0) -> pd.DataFrame:
 
 # ─── Indicator Tests ──────────────────────────────────────────────────────────
 
-class TestComputeIndicators:
+class TestComputeIndicatorssss:
     def setup_method(self):
         self.df = compute_indicators(make_dummy_df())
 
