@@ -28,9 +28,7 @@ def print_report(setup: dict, levels: dict) -> None:
     bias_icon = {"BULLISH": "🟢", "BEARISH": "🔴", "NEUTRAL": "🟡"}.get(setup["bias"], "⚪")
 
     print(f"""
-╔══════════════════════════════════════════════════════╗
-║           SOL/USDT — TRADING ANALYSIS REPORT        ║
-╚══════════════════════════════════════════════════════╝
+
 
   Timestamp   : {setup['timestamp']}
   Price       : ${setup['price']:.4f}
